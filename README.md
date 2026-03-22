@@ -1,70 +1,119 @@
-# Getting Started with Create React App
+# ⚛️ TP2 — Gestion de l'état local et interactions utilisateurs avec React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> Cours : Développement Front-End moderne avec React
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🎯 Objectifs du TP
 
-### `npm start`
+- ✅ Gestion de l'état local avec `useState`
+- ✅ Gestion des événements `onClick`, `onChange`, `onSubmit`
+- ✅ Formulaires contrôlés
+- ✅ Utilisation de `useEffect`
+- ✅ Respect du flux unidirectionnel des données
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🗂️ Structure du projet
 
-### `npm test`
+```
+tp-state/
+├── public/
+├── src/
+│   ├── components/
+│   │   ├── 🕐 Horloge.js
+│   │   ├── 🔢 Compteur.js
+│   │   ├── 💬 MessageBouton.js
+│   │   ├── 🖱️ AffichageDynamique.js
+│   │   ├── 📋 FormulaireNom.js
+│   │   ├── 📝 FormulaireInscription.js
+│   │   ├── ⚡ CompteurEffet.js
+│   │   ├── 🏷️ CompteurTitre.js
+│   │   ├── ✅ TodoList.js
+│   │   └── 🔝 Navbar.js
+│   ├── App.js
+│   ├── App.css
+│   └── index.js
+└── package.json
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🧩 Composants réalisés
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 🔢 Compteur simple
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<img width="1288" height="308" alt="Screenshot 2026-03-22 032924" src="https://github.com/user-attachments/assets/73578b86-7d45-4086-8766-bccfcb5b381d" />
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+### 💬 MessageBouton
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<img width="1005" height="367" alt="Screenshot 2026-03-22 033139" src="https://github.com/user-attachments/assets/d758a927-d37d-410f-ac27-e9cc3290ebe9" />
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 📋 FormulaireNom
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<img width="1630" height="717" alt="Screenshot 2026-03-22 033344" src="https://github.com/user-attachments/assets/92c0cdf8-36d0-46d8-a304-f94212a89e12" />
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+### ⚡ CompteurEffet
+<img width="1146" height="536" alt="Screenshot 2026-03-22 033527" src="https://github.com/user-attachments/assets/b0fc8ec2-488e-43bb-be54-d346857d7951" />
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## 🏋️ Exercices pratiques
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### 🖱️ Exercice 1 — Affichage dynamique
 
-### Analyzing the Bundle Size
+<img width="759" height="201" alt="Screenshot 2026-03-22 033834" src="https://github.com/user-attachments/assets/e63e5a4b-6193-41fb-ae0f-8ca952893296" />
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### 📝 Exercice 2 — Formulaire d'inscription
 
-### Making a Progressive Web App
+<img width="1452" height="388" alt="Screenshot 2026-03-22 033902" src="https://github.com/user-attachments/assets/ed292d86-90cf-45dd-bd78-22d9d888d2d8" />
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+### 🏷️ Exercice 3 — Compteur avec titre
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+<img width="874" height="197" alt="Screenshot 2026-03-22 033916" src="https://github.com/user-attachments/assets/c81a1224-4ec9-4fc2-b884-86bf093f6f00" />
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
+## 🆕 Composants supplémentaires
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### 🕐 Horloge en temps réel
+
+<img width="1919" height="744" alt="Screenshot 2026-03-22 035147" src="https://github.com/user-attachments/assets/0c1c3d19-52da-4465-aee3-3cd77f18df27" />
+
+### 📝 Formulaire d'inscription
+
+<img width="1919" height="755" alt="Screenshot 2026-03-22 035224" src="https://github.com/user-attachments/assets/30357eae-f348-48a7-8141-3caeb1c21045" />
+
+
+### ✅ Liste de tâches (Todo)
+
+<img width="1917" height="659" alt="Screenshot 2026-03-22 035316" src="https://github.com/user-attachments/assets/98df2a82-919e-4520-8e28-2a501c9c5f12" />
+
+
+### 🌙 Bascule thème clair / sombre
+
+<img width="1919" height="939" alt="Screenshot 2026-03-22 040438" src="https://github.com/user-attachments/assets/451a3b64-2409-4218-b410-d8fdd7cf7e34" />
+
+
+---
+
+
+## 🛠️ Technologies utilisées
+
+| Technologie | Version |
+|---|---|
+| React | 18+ |
+| JavaScript (ES6+) | — |
+| CSS3 (Variables CSS) | — |
+| Create React App | — |
+
+---
+
+## 👩‍💻 Auteur
+
+Projet réalisé dans le cadre du **TP2** du cours *Développement Front-End moderne avec React*.
